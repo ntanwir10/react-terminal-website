@@ -7,7 +7,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
         @@@@               @@@@             -----------
       @@                       @@            ABOUT
     @@                           @@          ${config.name}
-  @@                               @@        <u><a href="${config.resume_url}" target="_blank">resume</a></u>
+  @@                               @@       
  @@                         @@@     @@      -----------
 @@        @@@                        @@      CONTACT
 @@                                   @@      <u><a href="mailto:${config.email}" target="_blank">${config.email}</a></u>
@@ -27,7 +27,7 @@ const sumfetch = async (args: string[]): Promise<string> => {
         ▄▓▓▀ ▄▓▓▀▓▓▓▀▓▓▄ ▀▀▓▓▄              -----------
       ▓▓▀  ▄▓▀   ▐▓▓  ▀▓▓    ▓▓▄             ABOUT
     ▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓            ${config.name}
-   ▓▓     ▓▓▓    ▐▓▓    ▐▓▓     ▓▓           <u><a href="${config.resume_url}" target="_blank">resume</a></u>
+   ▓▓     ▓▓▓    ▐▓▓    ▐▓▓     ▓▓          
 ▐▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓       
 ▐▓                                 ▐▓       -----------
 ▐▓    > N A U M A N  T A N W I R   ▐▓        CONTACT 
