@@ -28,15 +28,18 @@ export const about = async (args: string[]): Promise<string> => {
 Welcome to my website!
 More about me:
 'sumfetch' - short summary.
-'resume' - my latest resume.
 'readme' - my github readme.`;
 };
 
-export const resume = async (args: string[]): Promise<string> => {
-  window.open(`${config.resume_url}`);
-  return 'Opening resume...';
-};
-
+/**
+ * TODO: about section ------>  'resume' - my latest resume.
+ * ? Resume method below ----  
+// export const resume = async (args: string[]): Promise<string> => {
+  //   window.open(`${config.resume_url}`);
+  //   return 'Opening resume...';
+  // };
+  
+  * */
 // Contact
 export const email = async (args: string[]): Promise<string> => {
   window.open(`mailto:${config.email}`);
